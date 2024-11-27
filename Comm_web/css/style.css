@@ -1,0 +1,177 @@
+/* 全局样式 */
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+/* 英雄区域 */
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: #333;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero .btn {
+    background: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.hero .btn:hover {
+    background: #ff7755;
+}
+
+/* 核心内容区 */
+main section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* 关于我们样式 */
+#about {
+    background: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.about-content p {
+    margin-bottom: 15px;
+}
+
+.about-content p:first-child {
+    font-weight: bold;
+    color: #333;
+}
+
+.about-content p:last-child {
+    font-style: italic;
+    color: #444;
+}
+
+/* 活动与动态部分 */
+#activities {
+    display: flex;
+    gap: 20px; /* 列间距 */
+    padding: 40px 20px;
+    background: #f9f9f9;
+}
+
+#activities .column {
+    flex: 1; /* 平分宽度 */
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#activities h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+}
+
+.event-card, .dynamic-card {
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-card h3, .dynamic-card p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.bte {
+    display: inline-block;
+    text-align: center;
+    padding: 8px 15px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.bte:hover {
+    background:gray;
+}
+
+/* 联系方式 */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+p a {
+    color: #fff;
+}
+
+p a:hover {
+    color: gray;
+}
